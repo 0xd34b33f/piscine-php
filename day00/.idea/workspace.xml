@@ -13,12 +13,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ex00/basics.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="23" lean-forward="true" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+            <state relative-caret-position="648">
+              <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
               <folding>
                 <element signature="e#250#255#0" expanded="true" />
                 <element signature="e#255#262#0" expanded="true" />
                 <element signature="e#262#267#0" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#src#0;n#img#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -27,7 +28,7 @@
                 <element signature="n#src#0;n#img#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#121143#121149#0" expanded="true" />
+                <element signature="e#121236#121242#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -112,12 +113,12 @@
       <option name="presentableId" value="Default" />
       <updated>1556198315865</updated>
       <workItem from="1556198319915" duration="15000" />
-      <workItem from="1556198355756" duration="4839000" />
+      <workItem from="1556198355756" duration="5141000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4854000" />
+    <option name="totallyTimeSpent" value="5156000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1439" y="185" width="1281" height="987" extended-state="0" />
@@ -150,12 +151,13 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ex00/basics.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="23" lean-forward="true" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+        <state relative-caret-position="648">
+          <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
           <folding>
             <element signature="e#250#255#0" expanded="true" />
             <element signature="e#255#262#0" expanded="true" />
             <element signature="e#262#267#0" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#src#0;n#img#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -164,7 +166,7 @@
             <element signature="n#src#0;n#img#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#121143#121149#0" expanded="true" />
+            <element signature="e#121236#121242#0" expanded="true" />
           </folding>
         </state>
       </provider>
