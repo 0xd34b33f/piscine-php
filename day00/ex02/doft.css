@@ -1,0 +1,27 @@
+.top_container {
+    /*display: inline-block;*/
+    /*height: 140px;*/
+    /*max-height: 139px;*/
+    display: flex;
+    margin: auto;
+    height: 139px;
+    justify-content: space-between;
+    background: #909090;
+}
+
+.top_container_right {
+    height: auto;
+    width: 30px;
+}
+
+.left_panel {
+
+}
+
+.right_container {
+
+}
+
+.central_container {
+
+}
