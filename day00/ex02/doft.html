@@ -1,19 +1,51 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="doft.css">
-    <title>Title</title>
+    <title> Day of the 42 </title>
 </head>
 <body>
-<div class="top_container">
-    <img style="height: 100%; width: auto; float: left;   object-fit: contain;" src="resources/day_of_the_42.png">
-    <img style="height: 100%; width: auto; float: right;   object-fit: contain; margin: 10px" src="resources/loupe.png">
-    <div class="top_container_right">
-        <img src="resources/reload.png"
-             style="float: right; width: 100%; height: auto">
-    </div>
+<div id="header">
+    <img id="logo" src="resources/day_of_the_42.png" title="logo" alt="logo">
+    <a href="http://www.disney.com/">
+        <img id="reload" src="resources/reload.png" title="Start from the beginning" alt="Start from the beginning">
+    </a>
+    <a href="http://www.relaischateaux.com/">
+        <img id="close" src="resources/close.gif" title="Disconnect" alt="Disconnect">
+    </a>
+    <img id="loupe" src="resources/loupe.png" title="loupe" alt="poupe">
+</div>
+<div id="left">
+    <img id="arrow" src="resources/arrow.png" title="Advance" alt="Advance">
+    <img id="main" src="resources/main.png" title="Take" alt="Take">
+    <img id="oeil" src="resources/oeil.png" title="Look" alt="Look">
+    <img id="outil" src="resources/outil.png" title="Use" alt="Use">
+    <img id="chat" src="resources/chat-icon.png" title="Speak" alt="Speak">
+</div>
+<div id="center">
+    <a href="http://ikea.com" title="ikea">
+        <div id="ikea"></div>
+    </a>
+    <a href="http://apple.com" title="apple">
+        <div id="apple"></div>
+    </a>
+</div>
+<div id="right">
+    <img id="book" src="resources/book.png" title="FAQ" alt="FAQ">
+    <img id="towel" src="resources/towel.png" title="Towel" alt="Towel">
+    <div id="brick" title="Wall" alt="Wall"></div>
+</div>
+<div id="box">
+    <p id="box_text">
+        Vous <span id="entrez">entrez</span> alors dans une grande piece remplie <br/>d'<span
+            id="shadow">ordinateurs</span>...
+        <br/>
+        <i>- Bonjour, vous êtes nouveau ici ?</i>
+        <br/>
+        <input id="input" type="text" title="Input" alt="Input">
+        <button title="Button" alt="Button">Repondre</button>
+    </p>
 </div>
 </body>
 </html>

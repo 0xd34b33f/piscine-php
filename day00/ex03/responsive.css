@@ -1,0 +1,74 @@
+body {
+    font-family: "als_artemius_sans";
+}
+
+h1 {
+    text-align: center;
+}
+
+div {
+    text-align: center;
+}
+
+p {
+    margin: 3%;
+}
+
+p.mass {
+    text-align: right;
+    font-size: 10%;
+
+}
+
+h2 {
+    text-align: center;
+    margin: 10%;
+    font-size: 100%;
+}
+
+td {
+    font-size: 100%;
+    width: 1%;
+    height: 1%;
+}
+
+td.diatomic {
+    background-color: #8DC53F;
+}
+
+td.noble-gas {
+    background-color: #FA9D99;
+}
+
+td.alkali-metal {
+    background-color: #F95353;
+}
+
+td.alkaline-earth-metal {
+    background-color: #FF9933;
+}
+
+td.metalloid {
+    background-color: #01A23A;
+}
+
+
+td.seventeenth {
+    background-color: #FECC00;
+}
+
+td.transition {
+    background-color: #98AFCA;
+}
+
+td.post-transition {
+    background-color: #6B90C9;
+}
+
+td.lanthanide {
+    background-color: #65C0DA;
+}
+
+td.actinide {
+    background-color: #00ADC2;
+}
