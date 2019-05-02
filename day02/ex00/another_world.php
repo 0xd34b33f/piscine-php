@@ -5,5 +5,3 @@ if ($argc > 2) {
     $arr = implode(" ", $arr);
     print $arr . "\n";
 }
-
-
