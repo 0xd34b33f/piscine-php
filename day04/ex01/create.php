@@ -11,4 +11,3 @@ if (!file_exists($pas_path)) {
     if ($_GET["submit"] === "OK" and $_GET["passwd"] !== "")
         file_put_contents($pas_path, hash("whirlpool", serialize($_GET["login"]) . ":" . serialize($_GET["passwd"])));
 }
-
