@@ -1,1 +1,14 @@
+<!--echo, hash(), file_get_contents(), file_put_contents(),-->
+<!--serialize(), unserialize(), $_POST, file_exists(), mkdir()-->
 <?php
+print_r($_GET);
+if (!file_exists("./private/passwd")) {
+    mkdir("./private");
+    mkdir("./private/passwd");
+}
+$pas_path = "./private/passwd/passwords.crypt";
+if (!file_exists($pas_path)) {
+    if ($_GET["submit"] === "OK" and $_GET["passwd"] !== "")
+        file_put_contents($pas_path, hash("whirlpool", serialize($_GET["login"]) . ":" . serialize($_GET["passwd"])));
+}
+
