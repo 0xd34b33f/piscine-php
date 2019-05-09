@@ -1,6 +1,6 @@
 <?php
 
-class Tyrion extends Stark
+class Tyrion extends Lannister
 {
 	function sleepWith($obj)
 	{

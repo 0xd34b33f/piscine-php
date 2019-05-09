@@ -1,0 +1,37 @@
+<html lang="en">
+
+
+<head>
+    <title></title>
+    <style>
+        .ballon {
+            border-radius: 50%;
+            height: 200px;
+            width: 200px;
+            background-color: red;
+        }
+    </style>
+    <script>
+
+    </script>
+</head>
+<body>
+<div class="ballon">
+    <script>
+        function incAll() {
+            currentColor++;
+            if (currentColor > 2) {
+                currentColor = 0;
+            }
+            currentSize += 10;
+            ballon.style.width = currentSize;
+            ballon.style.height = currentSize;
+            ballon.style.backgroundColor = colors[currentColor];
+        }
+        onclick = 'incAll()';
+    </script>
+
+</div>
+
+</body>
+</html>
