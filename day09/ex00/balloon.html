@@ -4,7 +4,7 @@
 <head>
     <title></title>
     <style>
-        .ballon {
+        #ballon {
             border-radius: 50%;
             height: 200px;
             width: 200px;
@@ -16,22 +16,56 @@
     </script>
 </head>
 <body>
-<div class="ballon">
+<div id="ballon" onclick="incAll()" onmouseout="decAll()">
     <script>
         function incAll() {
-            currentColor++;
-            if (currentColor > 2) {
-                currentColor = 0;
+            const elmt = document.querySelector('#ballon');
+            let wh = elmt.offsetWidth;
+            const colors = ["#ff0000", "#00ff00", "#0000ff"];
+            if (wh < 420)
+                wh += 10;
+            else
+                wh = 200;
+            wh += 'px';
+            elmt.style.width = wh;
+            elmt.style.height = wh;
+            let style = getComputedStyle(elmt);
+            let res = style.backgroundColor.split(',');
+            for (let i = 0; i < res.length; i++) {
+                res[i] = res[i].replace(/\D/g, '');
             }
-            currentSize += 10;
-            ballon.style.width = currentSize;
-            ballon.style.height = currentSize;
-            ballon.style.backgroundColor = colors[currentColor];
+            for (let i = 0; i < res.length; i++) {
+                if (res[i] !== '0') {
+                    elmt.style.backgroundColor = colors[(i + 1) % 3];
+                    break;
+                }
+            }
         }
-        onclick = 'incAll()';
+
+        function decAll() {
+            const elmt = document.querySelector('#ballon');
+            let wh = elmt.offsetWidth;
+            const colors = ["#ff0000", "#00ff00", "#0000ff"];
+            if (wh > 200) {
+                wh -= 5;
+                wh += 'px';
+                elmt.style.width = wh;
+                elmt.style.height = wh;
+            }
+            let style = getComputedStyle(elmt);
+            console.log(style.backgroundColor);
+            let res = style.backgroundColor.split(',');
+            for (let i = 0; i < res.length; i++) {
+                res[i] = res[i].replace(/\D/g, '');
+            }
+            if (res[0] !== '0')
+                elmt.style.backgroundColor = colors[2];
+            if (res[1] !== '0')
+                elmt.style.backgroundColor = colors[0];
+            if (res[2] !== '0')
+                elmt.style.backgroundColor = colors[1];
+        }
     </script>
-
 </div>
-
 </body>
 </html>
